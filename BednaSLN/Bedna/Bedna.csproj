@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1567613489784_efe35353d97bbd0b4357affbb6d4fcfc.jpeg" />
+    <None Remove="coinslot.png" />
+    <None Remove="gratis-png-bitcoin-cash-cme-group-cryptocurrency-trade-bitcoin.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1567613489784_efe35353d97bbd0b4357affbb6d4fcfc.jpeg" />
+    <Resource Include="coinslot.png" />
+    <Resource Include="gratis-png-bitcoin-cash-cme-group-cryptocurrency-trade-bitcoin.png" />
+  </ItemGroup>
+
+</Project>
